@@ -10,4 +10,4 @@
 ## Portfolio restart using mobile first tutorial
 ### Tutorial link:
 * https://www.youtube.com/watch?v=-uQIBlaZ4P0&list=PL07efmqYWHZ_rVeQ1ws0ER9eL6cxo-d5V 
-* Timestamp: 19:29, 43:35
+* Timestamp: 19:29, 43:35, 55:17, 1:04:00
