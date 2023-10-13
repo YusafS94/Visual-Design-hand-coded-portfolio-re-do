@@ -90,12 +90,15 @@ nav {
 .hero-image-container {
     width: 100%;
 }
+
 .title {
     font-family: var(--headings);
     font-size: 96px;
+    /* font-size: 5vw; */
     font-weight: 900;
 }
 .subheading {
+    font-size: 1.17rem;
     font-weight: 100;
     opacity: 60%;
 }
@@ -113,15 +116,6 @@ nav {
 .cards div {
     padding: 2rem 3rem;
     outline: 1px solid red;
-}
-
-@media only screen and (max-width: 768px) {
-    .hero-main {
-        flex-direction: column
-    }
-    .hero-text {
-        text-align: center;
-    }
 }
 
 /* Carousel section */
@@ -154,5 +148,34 @@ nav {
     }
     100% {
         transform: translateX(-50%);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-main {
+        flex-direction: column
+    }
+    .hero-text {
+        text-align: center;
+    }
+    /* Navbar */
+}
+
+@media screen and (max-width: 600px) {
+    /* Header */
+    .title {
+        font-size: 64px;
+    }
+    .subheading {
+        font-size: 16px;
+    }
+    .hero-image-container {
+        width: 60%;
+        outline: 1px solid red;
+        align-self: center;
+        padding: 0;
+    }
+    .cards {
+        flex-direction: column;
     }
 }
